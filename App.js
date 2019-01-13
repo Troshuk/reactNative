@@ -15,7 +15,7 @@ export default class register extends Component {
     const {userFirstName} = this.state;
     const {userLastName} = this.state;
 
-    fetch('http://192.168.1.9/index.php', {
+    fetch('http://192.168.1.1/index.php', {
       method: 'post',
       header:{
         'Accept': 'application/json',
